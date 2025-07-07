@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #task-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #add-task-btn {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  li {
+    margin-bottom: 12px;  /* 每个任务条之间的垂直间距 */
+  }
+  li {
+    margin-bottom: 12px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  button {
+    background-color: #4CAF50; /* 绿色背景 */
+    color: white;              /* 白色文字 */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* 悬停时变深一点的绿色 */
+  }
+  .done-button {
+    background-color: #007bff;  /* 蓝色 */
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;  /* 红色 */
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+  }
+  
+  .done-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
